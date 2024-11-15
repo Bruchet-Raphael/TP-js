@@ -9,4 +9,9 @@ var MavariableTableau = ['Apple', 'Bananna'];
 //des objets (ici la fenetre du navigateur)
 var MavariableObjet = window;
 
-alert(MavariableString + MavariableNumerique + MavariableTableau[0] + MavariableObjet.location.pathname)
+alert(MavariableString + MavariableNumerique + MavariableTableau[0] + MavariableObjet.location.pathname);
+
+if(MavariableObjet.outerWidth <=600)
+{
+    alert("test");
+}
